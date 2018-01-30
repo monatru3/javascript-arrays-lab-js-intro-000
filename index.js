@@ -14,4 +14,4 @@ var destructivelyPrependKitten=function(name) {
 
 var destructivelyRemoveLastKitten= ()=> { kittens.pop(); return kittens };
 
-var destructivelyRemoveFirstKitten= ()=> { kittens.shift(); return kittens }
+var destructivelyRemoveFirstKitten= ()=> { kittens.shift(); return kittens };
