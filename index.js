@@ -12,7 +12,6 @@ var destructivelyPrependKitten=function(name) {
   return kittens
 };
 
-var destructivelyRemoveLastKitten= ()=> {
-  kittens.pop()
-  return kittens
-};
+var destructivelyRemoveLastKitten= ()=> { kittens.pop(); return kittens };
+
+var destructivelyRemoveFirstKitten= ()=> { kittens.shift(); return kittens }
