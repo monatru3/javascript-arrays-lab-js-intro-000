@@ -1,7 +1,7 @@
-const app = "I don't do much."
+const app = "I don't do much.";
 
-var kittens=["Milo", "Otis", "Garfield"]
+var kittens=["Milo", "Otis", "Garfield"];
 
-var destructivelyAppendKitten(name) {
+var destructivelyAppendKitten=function(name) {
   return kittens
 }
